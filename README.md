@@ -10,7 +10,7 @@
 
 ## Work Experience
 
-- **Software Engineer for Research in Air Traffic Management (ATM) - Universitat Politècnica de Catalunya** - *October 2022 - October 2023 (1 yr.)*
+- **Software Engineer for Research in Air Traffic Management (ATM) - Universitat Politècnica de Catalunya** - *October 2021 - October 2022 (1 yr.)*
   - Developer in C++ of a trajectory optimization for commercial aircraft.
   - EU project involved: [CREATE](https://create-project.eu). Coordinated with other companies within the field (i.e., NLR).
   - Published paper in Proceedings of SESAR Innovation Days (SIDs) 2022. [Available here](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes).
@@ -19,7 +19,7 @@
   - Implementation of new features, integration, data flow management, validation analysis, stress test software design, etc.
   - Reference: [Xavier Prats, PhD](mailto:xavier.prats@upc.edu)
 
-- **Electronics Graduate Teaching Assistant - Universitat Politècnica de Catalunya** - *September 2022 - January 2023 (6 mo.)*
+- **Electronics Graduate Teaching Assistant - Universitat Politècnica de Catalunya** - *September 2020 - January 2021 (6 mo.)*
   - Electronics of Telecommunications assistant lecturer for the freshmen of the telecommunications program.
   - Lecturer of basic electronic instruments at the laboratory such as: power suppliers, signal generators, oscilloscopes. As well as other electronic components: transistors, AOs, capacitors, resistors, etc.
   - [Reference letter](https://drive.google.com/file/d/1tJ3tT5xtQtYZQvB0BsHpI6L2lFiaL0D8/view).
