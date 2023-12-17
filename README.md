@@ -76,6 +76,18 @@ Being the final scenario after 1.5 revolutions:
 
 ![final_scenario](assets/css/img/od/translation-XY_projection_LOADS_HALFED.png)
 
+### Rotational simulation
+#### *During my free time*
+
+Recently, for the Orbit Uncertainties Propagator mentioned above, I have been developing a rotational simulator using OpenCV for validation purposes for the rotational engine of VerneDA software.
+You can find this repository as a fork of [zainkhan-afk](https://github.com/zainkhan-afk/OpenCV-3D-Renderer.git).
+I added some extra work and my contributions can be followed in this other repository: [Open-CV-Renderer](https://github.com/bryanitou/OpenCV-3D-Renderer.git).
+
+As it can be seen in the image below, the code has the capability of handling Hierarchical Transformations.
+Panels rotate along their own axis alongside the main rotation of the cube.
+
+![sat_rendering.gif](assets%2Fcss%2Fimg%2Frender%2Fsat_rendering.gif)
+
 ### Path finding algorithms
 #### *During my free time*
 
