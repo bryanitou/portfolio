@@ -88,6 +88,26 @@ Panels rotate along their own axis alongside the main rotation of the cube.
 
 ![sat_rendering.gif](assets%2Fcss%2Fimg%2Frender%2Fsat_rendering.gif)
 
+### Plane stabilization project
+#### *During my free time*
+
+I found relevant this project which I did with my colleague Octavi Rad at ISAE-Supaero.
+Briefly summing up, as the diagram of connection below show, we had to design the control stabilization system of a little aircraft.
+That is, to any change in attitude measured by an accelerometer sensor ADXL362, an action was carried out by two servo-motors to stabilize it in the referent attitude.
+
+![connections.png](assets%2Fcss%2Fimg%2Fisae%2Fvhdl%2Fconnections.png)
+
+An accelerometer was connected to an ARM core processor, this communication was done by an SPI bus which we had to code by using SPI protocol in C.
+
+The FPGA had an integrated processor, so we created an IP which was responsible for generating the corresponding PWM signals to steer the servo-motors in the reference value.
+The signals were generated in the FPGA, and it was coded by VHDL language.
+Finally, the duty cycle of the signals were set from the ARM core processor by using an AXI bus.
+
+The last step was to code in C the control law to stabilize the plane, so we implemented a simple PID law in C.
+Video available in the link below.
+
+[![video_yt.png](assets%2Fcss%2Fimg%2Fisae%2Fvhdl%2Fvideo_yt.png)](https://youtu.be/AWsFvBn7cf8)
+
 ### Path finding algorithms
 #### *During my free time*
 
