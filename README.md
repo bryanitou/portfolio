@@ -10,6 +10,10 @@
 
 ## Work Experience
 
+- **Avionics Software Engineer Intern - THALES AVS (Avionics Systems)** - *April 2024 - present*
+  - Avionics simulation of flight data in A717 and A429 for Aviocast applications.
+  - Aviocast system bench test renovation.
+
 - **Software Engineer for Research in Air Traffic Management (ATM) - Universitat Politècnica de Catalunya** - *October 2021 - October 2022 (1 yr.)*
   - Developer in C++ of a trajectory optimization for commercial aircraft.
   - EU project involved: [CREATE](https://create-project.eu). Coordinated with other companies within the field (i.e., NLR).
