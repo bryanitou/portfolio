@@ -11,8 +11,11 @@
 ## Work Experience
 
 - **Avionics Software Engineer Intern - THALES AVS (Avionics Systems)** - *April 2024 - present*
-  - Avionics simulation of flight data in A717 and A429 for Aviocast applications.
-  - Aviocast system bench test renovation.
+  - Avionics simulation of flight data in A717 and A429 for AvioCast applications.
+  - AvioCast system bench test renovation and automation.
+  - Worked from linux kernel level until CI/CD Gitlab Pipelines.
+  - Centered into the AvioBook Wireless QAR service ([https://aviobook.aero/products/aviocast](https://aviobook.aero/products/aviocast))
+  - Key learnings: Simulation, Mender (OTA), AWS, CI/CD, Docker, Gitlab Runners and Cybsersecurity.
 
 - **Software Engineer for Research in Air Traffic Management (ATM) - Universitat Politècnica de Catalunya** - *October 2021 - October 2022 (1 yr.)*
   - Developer in C++ of a trajectory optimization for commercial aircraft.
