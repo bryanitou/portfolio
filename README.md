@@ -10,7 +10,7 @@
 
 ## Work Experience
 
-- **Avionics Software Engineer Intern - THALES AVS (Avionics Systems)** - *April 2024 - present*
+- **Avionics Software Engineer Intern for AvioCast (AvioBook) - THALES AVS (Avionics Systems)** - *April 2024 - present*
   - Avionics simulation of flight data in A717 and A429 for AvioCast applications.
   - AvioCast system bench test renovation and automation.
   - Worked from linux kernel level until CI/CD Gitlab Pipelines.
