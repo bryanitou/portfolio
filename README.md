@@ -3,7 +3,7 @@
 
 ## Education
 
-- **Aerospace Engineering, M.Sc.** - ISAE-Supaero - *September 2022 - Present (2 yr.)*
+- **Aerospace Engineering, M.Sc.** - ISAE-Supaero - *September 2022 - September 2024 (2 yr.)*
 - **Bachelor's Final Thesis** - Politecnico di Torino - *February 2021 - July 2021 (6 mo.)*
 - **Aerospace Systems Engineering, B.Eng.** - Universitat Politècnica de Catalunya - *February 2017 - July 2021 (4 yr.)*
 
