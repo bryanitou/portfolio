@@ -1,6 +1,5 @@
 # M.Sc. Aerospace Engineering
 ## ISAE-Supaero M.Sc. in Aerospace Engineering with major in Embedded Systems
-### Currently, in search of an internship starting by April 2024
 
 ## Education
 
