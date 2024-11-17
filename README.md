@@ -18,6 +18,7 @@
   - Key learnings: Simulation, Mender (OTA), AWS, CI/CD, Docker, Gitlab Runners and Cybsersecurity.
 
 - **Software Engineer for Research in Air Traffic Management (ATM) - Universitat Politècnica de Catalunya** - *October 2021 - October 2022 (1 yr.)*
+  - See project here: [Dynamo3](https://dynamo3.upc.edu/#/)
   - Developer in C++ of a trajectory optimization for commercial aircraft.
   - EU project involved: [CREATE](https://create-project.eu). Coordinated with other companies within the field (i.e., NLR).
   - Published paper in Proceedings of SESAR Innovation Days (SIDs) 2022. [Available here](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes).
