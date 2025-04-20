@@ -10,6 +10,9 @@
 ## Work Experience
 - **Simulation Software Engineer - A330 MRTT Air-to-Air Refueling - GMV Aerospace And Defence SAU** - *November 2024 - Present*
   - Sofware development for the AAR (Air-to-Air Refueling) simulation console. 
+- **Professor - IES Abroad Madrid** - *January 2025 - Present*
+  - Professor of the course: ER/ERM 341 - Control Engineering.
+  - Syllabus: [here](https://www.iesabroad.org/programs/courses/erem-341-control-engineering).
 - **Avionics Software Engineer Intern for AvioCast (AvioBook) - THALES AVS (Avionics Systems)** - *April 2024 - September 2024 (6 mo.)*
   - Avionics simulation of flight data in A717 and A429 for AvioCast applications.
   - AvioCast system bench test renovation and automation.
