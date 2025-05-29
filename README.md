@@ -35,7 +35,40 @@
   - Lecturer of basic electronic instruments at the laboratory such as: power suppliers, signal generators, oscilloscopes. As well as other electronic components: transistors, AOs, capacitors, resistors, etc.
   - [Reference letter](https://drive.google.com/file/d/1tJ3tT5xtQtYZQvB0BsHpI6L2lFiaL0D8/view).
 
-## Projects
+## Professional experience: projects
+
+In each of this sections, the personal contribution in order of importance is showcased for each professional experience I have had till the date.
+
+### GMV
+WIP
+### THALES
+WIP
+### UPC
+
+I secured a position as a Research Software Engineer for ATM (Air Traffic Management) just after graduating from my BSc. In there, I mainly contributed to their trajectory optimizer and predictor: DYNAMO3. Plus, I got involved into research activities and greatly collaborated in the EU SESAR project: CREATE.
+
+#### Software developer for [DYNAMO3](https://dynamo3.upc.edu/#/)
+
+- **Meteorological data simulation**. In order to increase the fidelity results from DYNAMO3, realistic meteorological data was input in order for the optimizer decide whether some routes are less or more cost effective mainly in relation to: wind, pressure and temperature. Plus, thunderstorm identifiacation could be done and contrail generation sensitive volumes could also be found.
+![dynamo_winds](assets/css/img/upc/dynamo_winds.png)
+In the image above, it can be spotted that the trajectory (blue line) avoids flying trough the heavy crosswinds in order to burn less fuel, hence being less costly to the airline. The software was feed by real data from NOAA (National Oceanic and Atmospheric Administration).
+
+- **Lateral optimization algorithms**. DYNAMO3 suffered a heavy upgrade in terms of lateral optimization. Its main path planning algorithm, A* (Optimal A-Star search algorithm), was enhanced in order to overcome: local minimas, resolution issues, non dynamic grids, etc.
+![alternatives_graphs](assets/css/img/upc/alternatives_graphs.png)
+During flight, it might be possible to avoid laterally (usually a thunderstorm) an area. These could be done in an optimal way by introducing a dynamic grid (or graph) of flying waypoints between the entry and exit point of the area. These grid could be genereated to the left/right and/or both. Therefore, giving a wider amount of solutions for the optimizer to select the best one.
+
+
+
+####  [Paper Publication](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes): Alternative 4D Trajectories for the avoidance of weather- and contrail-sensitive volumes. 
+
+![alternatives_graphs](assets/css/img/upc/alternatives_trajectories.png)
+
+![alternatives_summary](assets/css/img/upc/alternatives_summary.png)
+
+
+
+
+## Personal/Academic Projects
 
 Herein this section you will find some of the work I've achieved so far, going from the newest challenges to the oldest ones. All of which I consider have enriched me throughout my academic life.
 
