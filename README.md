@@ -8,9 +8,10 @@
 - **Aerospace Systems Engineering, B.Eng.** - Universitat Politècnica de Catalunya - *February 2017 - July 2021 (4 yr.)*
 
 ## Work Experience
-- **Simulation Software Engineer - A330 MRTT Air-to-Air Refueling - GMV Aerospace And Defence SAU** - *November 2024 - Present*
-  - Sofware development for the AAR (Air-to-Air Refueling) simulation console. 
-- **Professor - IES Abroad Madrid** - *January 2025 - Present*
+- **Simulation Software Engineer - A330 MRTT Air-to-Air Refueling - Airbus Defence and Space SAU (1yr as GMV)** - *November 2024 - Present*
+  - Sofware engineer for the AAR (Air-to-Air Refueling) simulation console and cockpit systems.
+  - Activities: development, integration and bench-test.
+- **Adjunct Professor - IES Abroad Madrid** - *January 2025 - July 2025*
   - Professor of the course: ER/ERM 341 - Control Engineering.
   - Syllabus: [here](https://www.iesabroad.org/programs/courses/erem-341-control-engineering).
 - **Avionics Software Engineer Intern for AvioCast (AvioBook) - THALES AVS (Avionics Systems)** - *April 2024 - September 2024 (6 mo.)*
@@ -37,12 +38,60 @@
 
 ## Professional experience: projects
 
-In each of this sections, the personal contribution in order of importance is showcased for each professional experience I have had till the date.
+In each of this sections, the personal contribution in chronological order is showcased for each professional experience I have had till the date.
 
-### GMV
-WIP
+### Airbus Defence & Space (1 yr. as GMV)
+
+Just right after defending my master's intership in Thales and after having had a glimpse into the world of simulation... I flew to the Spain's capital in order to enter into the core of very hostile simulation environments: Air to Air Refueling (AAR) for the A330 Multi-Role Tanker Transport (MRTT). Till the date, I still enjoy delving into the challenges of AAR simulation.
+
+![f16-mrtt-refueling](assets/css/img/airbus/a330_mrtt_refuelling_eurofighters.png)
+Image source: [https://www.airbus.com/en/products-services/defence/military-aircraft/a330-mrtt](https://www.airbus.com/en/products-services/defence/military-aircraft/a330-mrtt)
+
+At our department, two worlds of simulation are being developed: Full Flight Simulator (FFS) and Air Refueling Monitoring System (ARMS) the latter one refers to the Refueling Console or Refueling Command poste and it can be seen here below.
+
+![french_airforce_console](assets/css/img/airbus/french_airforce_console.jpg)
+Image source: [https://imagesdefense.gouv.fr/fr/](https://imagesdefense.gouv.fr/fr/l-operateur-d-un-avion-airbus-a330-mrtt-dirige-un-ravitaillement-en-vol-depuis-son-poste-de-commande-au-dessus-du-tchad-3.html)
+
+Among many tasks, the more relevants that I have been taking care of are:
+
+- Air Traffic Service Unit (ATSU) partial simulation of the model. Mainly the Controller Pilot Data Link Communications (CPDLC) submodel which is interconnected with Air Traffic Control (ATC) TWR and commanded from the pilot through DCDUs and monitored by the MCDU.
+- Datalink Control and Display Unit (DCDU)s interface simulation.
+- Inmersive ATC environments by using AI trained models. Real time embedded simulation of communications in traffic congested airspaces between Ground (ATC TWR) <-> Air (Tanker) <-> Instructor. Geographic sensitive with multiple voice accents around the world.
+- Automatic Terminal Information Service (ATIS): an airport meteorological broadcast service for aircraft in its surroundings from METAR or manual meteorological reports.
+- Universal Air Refueling Receptacle Slipway Installation (UARRSI): device simulation of the physical hardware on top of the front fuselage in charge of receiving fuel from another tanker.
+- Simulation of Military Information Distribution System (MIDS) included in several tactical mission systems onboard of the aircraft.
+
+
 ### THALES
-WIP
+
+During my stay in France I had the opportunity to join Thales Avionics Systems (AVS) for my internship for tha masters at ISAE-Supaero.
+
+In there, I integrated my knowledge into a real embedded device: AvioCast. The scope of my internship included a full automation and renovation of the bench test for software production.
+
+The AvioCast device is composed by (see hardware image below):
+
+- Server: non-certified software.
+- Docker: certified processing unit.
+
+The docker, collects avionic data to later be used by the server who interacts with the operator base of the airplane in several ways. AvioCast offers, among other services, the direct wireless offload of QAR (Quick Access Recorder). That is, when the aircraft lands the flight data is downloaded in seconds from the operator to be quickly assessed by their flight analysis engineers.
+
+![aviocast_device](assets/css/img/thales/aviocast.png)
+Image source: [https://aviobook.aero/products/aviocast](https://aviobook.aero/products/aviocast)
+
+The AvioCast (see above) is located just under the cabin (see below), offering quick access in case of maintenance.
+
+![aviocast_in_airplane](assets/css/img/thales/aviocast_in_airplane.png)
+Image source: [https://aviobook.aero/products/aviocast](https://aviobook.aero/products/aviocast)
+
+Main activities as a test-bench engineer involved:
+
+- Simulation of flight data through A429 and A717 buses in order to process critical information.
+- Software development in order to send this simulated data through avionic hardware like UA2000 [Ballard Cards](https://www.astronics.com/avionics-interfaces-for-arinc-429) or similar.
+- Design of a new electronic board to centralize connections.
+- Upgrade of the test-bench software to fit these new requirements.
+- Production deployment into the target through Over-the-Air (OVA) software like [Mender](https://mender.io/) combined with cloud services such as Amazon Web Services (AWS).
+- From scratch mise-en-place of a full software production pipeline (comprising the before mentioned technologies) by using GitLab from a single commit.
+
 ### UPC
 
 I secured a position as a Research Software Engineer for ATM (Air Traffic Management) just after graduating from my BSc. In there, I mainly contributed to their trajectory optimizer and predictor: DYNAMO3. Plus, I got involved into research activities and greatly collaborated in the EU SESAR project: CREATE.
