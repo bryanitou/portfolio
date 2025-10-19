@@ -38,33 +38,32 @@
 
 ## Professional experience: projects
 
-In each of this sections, the personal contribution in chronological order is showcased for each professional experience I have had till the date.
+In each of these sections, the personal contribution in chronological order is showcased for every professional experience I have had till the date.
 
 ### Airbus Defence & Space (1 yr. as GMV)
 
-Just right after defending my master's intership in Thales and after having had a glimpse into the world of simulation... I flew to the Spain's capital in order to enter into the core of very hostile simulation environments: Air to Air Refueling (AAR) for the A330 Multi-Role Tanker Transport (MRTT). Till the date, I still enjoy delving into the challenges of AAR simulation.
+Just right after defending my master's intership in Thales and after having had a glimpse into the world of simulation... I flew to Spain's capital in order to enter into the core of very hostile simulation environments: Air to Air Refueling (AAR) for the A330 Multi-Role Tanker Transport (MRTT). Till the date, I still enjoy delving into the challenges of AAR simulation.
 
 ![f16-mrtt-refueling](assets/css/img/airbus/a330_mrtt_refuelling_eurofighters.png)
 Image source: [https://www.airbus.com/en/products-services/defence/military-aircraft/a330-mrtt](https://www.airbus.com/en/products-services/defence/military-aircraft/a330-mrtt)
 
-At our department, two worlds of simulation are being developed: Full Flight Simulator (FFS) and Air Refueling Monitoring System (ARMS) the latter one refers to the Refueling Console or Refueling Command poste and it can be seen here below.
+At our department, two worlds of simulation are being developed: Full Flight Simulator (FFS) and Air Refueling Monitoring System (ARMS). The latter refers to the Refueling Console or Refueling Command poste, which can be seen here below.
 
 ![french_airforce_console](assets/css/img/airbus/french_airforce_console.jpg)
 Image source: [https://imagesdefense.gouv.fr/fr/](https://imagesdefense.gouv.fr/fr/l-operateur-d-un-avion-airbus-a330-mrtt-dirige-un-ravitaillement-en-vol-depuis-son-poste-de-commande-au-dessus-du-tchad-3.html)
 
-Among many tasks, the more relevants that I have been taking care of are:
+Among many tasks, the most relevants that I have been taking care of are:
 
 - Air Traffic Service Unit (ATSU) partial simulation of the model. Mainly the Controller Pilot Data Link Communications (CPDLC) submodel which is interconnected with Air Traffic Control (ATC) TWR and commanded from the pilot through DCDUs and monitored by the MCDU.
 - Datalink Control and Display Unit (DCDU)s interface simulation.
-- Inmersive ATC environments by using AI trained models. Real time embedded simulation of communications in traffic congested airspaces between Ground (ATC TWR) <-> Air (Tanker) <-> Instructor. Geographic sensitive with multiple voice accents around the world.
+- Inmersive ATC environments by using AI trained models. Real time embedded simulation of communications in traffic congested airspaces between Ground (ATC TWR) <-> Air (Tanker) <-> Instructor. It is geographic sensitive, comprising multiple voice accents around the world.
 - Automatic Terminal Information Service (ATIS): an airport meteorological broadcast service for aircraft in its surroundings from METAR or manual meteorological reports.
 - Universal Air Refueling Receptacle Slipway Installation (UARRSI): device simulation of the physical hardware on top of the front fuselage in charge of receiving fuel from another tanker.
 - Simulation of Military Information Distribution System (MIDS) included in several tactical mission systems onboard of the aircraft.
 
-
 ### THALES
 
-During my stay in France I had the opportunity to join Thales Avionics Systems (AVS) for my internship for tha masters at ISAE-Supaero.
+During my stay in France I had the opportunity to join Thales Avionics Systems (AVS) for my internship for the masters at ISAE-Supaero.
 
 In there, I integrated my knowledge into a real embedded device: AvioCast. The scope of my internship included a full automation and renovation of the bench test for software production.
 
@@ -73,14 +72,14 @@ The AvioCast device is composed by (see hardware image below):
 - Server: non-certified software.
 - Docker: certified processing unit.
 
-The docker, collects avionic data to later be used by the server who interacts with the operator base of the airplane in several ways. AvioCast offers, among other services, the direct wireless offload of QAR (Quick Access Recorder). That is, when the aircraft lands the flight data is downloaded in seconds from the operator to be quickly assessed by their flight analysis engineers.
+The docker collects avionic data to later be used by the server who interacts with the operator base of the airplane in several ways. AvioCast offers, among other services, the direct wireless offload of QAR (Quick Access Recorder). That is, when the aircraft lands the flight data is downloaded in seconds from the operator to be quickly assessed by their flight analysis engineers.
 
-![aviocast_device](assets/css/img/thales/aviocast.png)
+![aviocast_device](assets/css/img/thales/aviocast.png)\
 Image source: [https://aviobook.aero/products/aviocast](https://aviobook.aero/products/aviocast)
 
 The AvioCast (see above) is located just under the cabin (see below), offering quick access in case of maintenance.
 
-![aviocast_in_airplane](assets/css/img/thales/aviocast_in_airplane.png)
+![aviocast_in_airplane](assets/css/img/thales/aviocast_in_airplane.png)\
 Image source: [https://aviobook.aero/products/aviocast](https://aviobook.aero/products/aviocast)
 
 Main activities as a test-bench engineer involved:
@@ -98,17 +97,15 @@ I secured a position as a Research Software Engineer for ATM (Air Traffic Manage
 
 #### Software developer for [DYNAMO3](https://dynamo3.upc.edu/#/)
 
-- **Meteorological data simulation**. In order to increase the fidelity results from DYNAMO3, realistic meteorological data was input in order for the optimizer decide whether some routes are less or more cost effective mainly in relation to: wind, pressure and temperature. Plus, thunderstorm identifiacation could be done and contrail generation sensitive volumes could also be found.
+- **Meteorological data simulation**. In order to increase the fidelity results from DYNAMO3, realistic meteorological data was input for the optimizer to decide whether some routes are less or more cost effective mainly in relation to: wind, pressure and temperature. Plus, thunderstorm identification could be done and contrail generation sensitive volumes could also be found.
 ![dynamo_winds](assets/css/img/upc/dynamo_winds.png)
-In the image above, it can be spotted that the trajectory (blue line) avoids flying trough the heavy crosswinds in order to burn less fuel, hence being less costly to the airline. The software was feed by real data from NOAA (National Oceanic and Atmospheric Administration).
+In the image above, it can be spotted that the trajectory (blue line) avoids flying trough the heavy crosswinds in order to burn less fuel, hence being less costly to the airline. The software was fed by real data from NOAA (National Oceanic and Atmospheric Administration).
 
 - **Lateral optimization algorithms**. DYNAMO3 suffered a heavy upgrade in terms of lateral optimization. Its main path planning algorithm, A* (Optimal A-Star search algorithm), was enhanced in order to overcome: local minimas, resolution issues, non dynamic grids, etc.
 ![alternatives_graphs](assets/css/img/upc/alternatives_graphs.png)
-During flight, it might be possible to avoid laterally (usually a thunderstorm) an area. These could be done in an optimal way by introducing a dynamic grid (or graph) of flying waypoints between the entry and exit point of the area. These grid could be genereated to the left/right and/or both. Therefore, giving a wider amount of solutions for the optimizer to select the best one.
+During flight, it might be possible to avoid laterally (usually a thunderstorm) an area. This could be done in an optimal way by introducing a dynamic grid (or graph) of flying waypoints between the entry and exit point of the area. These grids could be genereated to the left/right and/or both. Therefore, giving a wider amount of solutions for the optimizer to select the best one.
 
-
-
-####  [Paper Publication](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes): Alternative 4D Trajectories for the avoidance of weather- and contrail-sensitive volumes. 
+#### [Paper Publication](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes): Alternative 4D Trajectories for the avoidance of weather- and contrail-sensitive volumes. 
 
 ![alternatives_graphs](assets/css/img/upc/alternatives_trajectories.png)
 
