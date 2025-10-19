@@ -1,4 +1,5 @@
 # M.Sc. Aerospace Engineering
+
 ## ISAE-Supaero M.Sc. in Aerospace Engineering with major in Embedded Systems
 
 ## Education
@@ -8,6 +9,7 @@
 - **Aerospace Systems Engineering, B.Eng.** - Universitat Politècnica de Catalunya - *February 2017 - July 2021 (4 yr.)*
 
 ## Work Experience
+
 - **Simulation Software Engineer - A330 MRTT Air-to-Air Refueling - Airbus Defence and Space SAU (1yr as GMV)** - *November 2024 - Present*
   - Sofware engineer for the AAR (Air-to-Air Refueling) simulation console and cockpit systems.
   - Activities: development, integration and bench-test.
@@ -105,14 +107,11 @@ In the image above, it can be spotted that the trajectory (blue line) avoids fly
 ![alternatives_graphs](assets/css/img/upc/alternatives_graphs.png)
 During flight, it might be possible to avoid laterally (usually a thunderstorm) an area. This could be done in an optimal way by introducing a dynamic grid (or graph) of flying waypoints between the entry and exit point of the area. These grids could be genereated to the left/right and/or both. Therefore, giving a wider amount of solutions for the optimizer to select the best one.
 
-#### [Paper Publication](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes): Alternative 4D Trajectories for the avoidance of weather- and contrail-sensitive volumes. 
+#### [Paper Publication](https://www.researchgate.net/publication/366617093_Alternative_4D_Trajectories_for_the_avoidance_of_weather-_and_contrail-sensitive_volumes): Alternative 4D Trajectories for the avoidance of weather- and contrail-sensitive volumes
 
 ![alternatives_graphs](assets/css/img/upc/alternatives_trajectories.png)
 
 ![alternatives_summary](assets/css/img/upc/alternatives_summary.png)
-
-
-
 
 ## Personal/Academic Projects
 
@@ -130,7 +129,7 @@ Our mission, which was to create a platform capable of demonstrating the deploym
 
 ![dassault_competition_photo](assets/css/img/dassault/crop_rectangular_lowx2.png)
 
-My contribution focused on the core of the mission, which was the visual detection of an Aruco (or QR) marker on ground, after which a trap-door would open in order to place the good at the service of the injured. 
+My contribution focused on the core of the mission, which was the visual detection of an Aruco (or QR) marker on ground, after which a trap-door would open in order to place the good at the service of the injured.
 
 The whole mission can be step-by-step revised in the following video here below (if image not available, [click here](https://youtu.be/wZw2LPafCyY)):
 
@@ -141,9 +140,10 @@ The first prize of the competition was awarded to my team, being honoured with a
 <!-- ![dassault_le_bourget_visit](assets/css/img/dassault/ParisAirshow.png) -->
 
 ### Orbit Uncertainties Propagator
+
 #### *January 2023 - June 2023*
 
-Within the frame of my M.Sc. in Aerospace Engineering at ISAE-Supaero, a research project is carried out in order to work hand in hand with their research department. In my case, I was offered a position in the *Département Conceptinon et conduite des véhicules Aéronautiques et Spatiaux* (DCAS). My mission consisted in developing a simulator for uncertainties propagation. 
+Within the frame of my M.Sc. in Aerospace Engineering at ISAE-Supaero, a research project is carried out in order to work hand in hand with their research department. In my case, I was offered a position in the *Département Conceptinon et conduite des véhicules Aéronautiques et Spatiaux* (DCAS). My mission consisted in developing a simulator for uncertainties propagation.
 
 This project is the first step towards a cleaner space, where non-cooperative targets will be chased by an autonomous self-navigating satellite capable of predicting the future states of debris, un-operative satellites, meteorites, asteroids and much more.
 
@@ -167,6 +167,7 @@ Being the final scenario after 1.5 revolutions:
 ![final_scenario](assets/css/img/od/translation-XY_projection_LOADS_HALFED.png)
 
 ### Rotational simulation
+
 #### *During my free time*
 
 Recently, for the Orbit Uncertainties Propagator mentioned above, I have been developing a rotational simulator using OpenCV for validation purposes for the rotational engine of VerneDA software.
@@ -179,6 +180,7 @@ Panels rotate along their own axis alongside the main rotation of the cube.
 ![sat_rendering.gif](assets%2Fcss%2Fimg%2Frender%2Fsat_rendering.gif)
 
 ### Plane stabilization project
+
 #### *During my free time*
 
 I found relevant this project which I did with my colleague Octavi Rad at ISAE-Supaero.
@@ -199,6 +201,7 @@ Video available in the link below.
 [![video_yt.png](assets%2Fcss%2Fimg%2Fisae%2Fvhdl%2Fvideo_yt.png)](https://youtu.be/AWsFvBn7cf8)
 
 ### Path finding algorithms
+
 #### *During my free time*
 
 For the completion of my bachelor studies, I worked in Politecnico di Torino for 6 months, hand in hand with Stefano Primatesta, PhD. He introduced me to the world of path-finding algorithms. These new methods were being studied for a wide variety of robots, such as underwater, surface and aerial robots (UAVs).
